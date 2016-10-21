@@ -1,0 +1,878 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass upeeei
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%%% UP EEEI undergraduate project template
+\end_layout
+
+\begin_layout Plain Layout
+
+%% v0.1 by Louis P.
+ Alarcon 11/22/2011
+\end_layout
+
+\begin_layout Plain Layout
+
+%%
+\end_layout
+
+\begin_layout Plain Layout
+
+%% LyX template - use with the following files:
+\end_layout
+
+\begin_layout Plain Layout
+
+%% 	uct10_new.clo, uct11_new.clo, uct12_new.clo, upeeei.cls, upeeei.layout
+\end_layout
+
+\begin_layout Plain Layout
+
+%%
+\end_layout
+
+\begin_layout Plain Layout
+
+%% Place project title here
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+title{Design and Implementation of a Vehicle Classification Module} 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+%%
+\end_layout
+
+\begin_layout Plain Layout
+
+%% Author information
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+author{
+\end_layout
+
+\begin_layout Plain Layout
+
+Rodrigo N.
+ Celso II
+\backslash
+
+\backslash
+ 2012-02266
+\backslash
+
+\backslash
+ 
+\backslash
+emph{B.S.
+ Computer Engineering} 
+\backslash
+and
+\end_layout
+
+\begin_layout Plain Layout
+
+Zachary Ting
+\backslash
+
+\backslash
+ 2012-xxxxx
+\backslash
+
+\backslash
+ 
+\backslash
+emph{B.S Electronics and Electrical Engineering}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+and
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+%%
+\end_layout
+
+\begin_layout Plain Layout
+
+%% Month and year of submission/graduation
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+degreeyear{2016} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+degreesemester{October} 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+% Put your advisers here:
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+chair{Associate Professor Rhandley Cajote, Ph.D.} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+othermembers{Dale Joshua Del Carmen} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+numberofmembers{2} 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+field{Electrical/Computer/Electronics and Communications Engineering} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+campus{Diliman} 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+maketitle 
+\end_layout
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+approvalpage 
+\end_layout
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+copyrightpage 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{abstract} 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+%Your abstract goes here...
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+ABSTRACT!
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+In a 
+\backslash
+emph{single} well-written paragraph, this is what we'd like to do.
+  Try to cover Need, Solution, Differentiation, Benefit (NSDB).
+  Use the content of this template as an example for formatting your proposal
+ document, 
+\backslash
+textbf{NOT} as a strict guide for the flow of your discussion and what your
+ proposal must contain.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+abstractsignature
+\backslash
+end{abstract}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{frontmatter} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setlength{
+\backslash
+parskip}{0pt}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{frontmatter} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+def
+\backslash
+MASTERDOC{true}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Introduction
+\begin_inset CommandInset label
+LatexCommand label
+name "cha:Introduction"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Background of the Project
+\end_layout
+
+\begin_layout Standard
+Heavy traffic has become the major problem of the Philippines.
+ Metro Manila, the center of trade and economy in the country is now beyond
+ the critical zone where the daily commute time is 90 to 150 minutes and
+ the cost of traffic has become Php2.4 billion a day.
+ (Inquirer, 1) Aside from the proper use of land resources and money for
+ building infrastructures for transportation which can cost a lo, implementing
+ Intelligent Transportation System (ITS) is one way to address this issue.
+ 
+\end_layout
+
+\begin_layout Standard
+The traffic management agencies need access to real-time data in order for
+ them to optimize the resources that the country has in solving congestion.
+ Approaches in harnessing these data includes using Global Positioning System
+ (GPS) used by Grab and Uber, Radio Frequency Identification (RFID) used
+ by toll gates, and Radar Guns used by policemen in the country.
+ Video-based systems provide a more efficient solution due to its flexible
+ way of acquiring data and they are being developed in a huge pace due to
+ recent evolutions in both software and hardware.
+ (Bommes, 2) 
+\end_layout
+
+\begin_layout Standard
+The Philippines has a current traffic flow monitoring system called Philippine
+ Metropolitan Advanced Traveler Information System (PhilMATIS) which lacks
+ a vehicle classification module which can also be useful in monitoring,
+ counting and surveillance for traffic operations.
+ Methods in classification include using radar signals, frequency signals,
+ weighing and image / video representation.
+ The latter is much more efficient due to the widespread deployment of Closed
+ Circuit Television (CCTV) on roads.
+ (Zhou, 3) 
+\end_layout
+
+\begin_layout Standard
+Large amounts of features are needed in order to classify these vehicles.
+ These features are interconnected and form patterns where pattern recognition
+ becomes necessary which is one of the major role of machine learning in
+ technology.
+ (4) It is also used in a lot of other fields in Image Processing such as
+ in classification of diseases from hospital settings, remote sensing, and
+ face detection.
+ (5, 6) 
+\end_layout
+
+\begin_layout Section
+Project Overview 
+\end_layout
+
+\begin_layout Standard
+PhilMATIS provides information on the number of vehicles, speed and road
+ occupancy.
+ The framework of the system is shown in Figure 1.1.
+ These data only gives you a general view without considering the size and
+ type of the vehicle.
+ What can be useful here in classifying vehicles would be the way vehicles
+ are being detected so that a region containing the vehicle will be the
+ one to be used in extracting features.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename images/philmatis.jpg
+	width 17cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+PhilMATIS Framework
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The first step in classifying vehicles would be to detect it from the video.
+ (Mithun, 7) For vehicle detection, PhilMATIS uses Visual Background Extractor
+ (ViBE) algorithm to subtract the background for daytime and gray level
+ thresholding to detect headlights for nighttime.
+ (8) Next step in classification is to extract the features of the vehicle.
+ Features extraction can be classified into two: length-based features and
+ texture-based features.
+ (Kamkar, 9) Several combination of features will be presented in this paper.
+ Using these features, it can now be classified using a machine learning
+ algorithm.
+ The block diagram is presented below.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename images/block_diagram_classification.png
+	width 17cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Block Diagram of the Project
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+For this project, the system will be using a state-of-the-art method which
+ is Machine Learning.
+ Some methods will be discuss in the next chapter.
+ The rest of the paper is organized as follows.
+ Chapter 2 will present the previous works on Vehicle Detection, Feature
+ Extraction and Vehicle Classification.
+ Chapter 3 will state the problem that needs to be solved and the objectives.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Related Work
+\begin_inset CommandInset label
+LatexCommand label
+name "cha:RRW"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Machine learning is already used in the field of image processing even in
+ vehicle classification.
+ Before classifying these vehicles the image needs to be pre-processed and
+ then detected to be discussed in Section 2.1.
+ The study on the type of features will be examined in Section 2.2.
+ Section 2.3 will include the different algorithm used in classifying vehicles
+ from these features.
+ 
+\end_layout
+
+\begin_layout Section
+Vehicle Detection
+\end_layout
+
+\begin_layout Standard
+There is already a lot of vehicle detection literature available which is
+ a preliminary step in vehicle classification.
+ The two main approaches in vehicle detection are using vehicle motion informati
+on and using inherent features of vehicles.
+ [9] The approach done by PhilMATIS is using Visual Background Extractor
+ (ViBe) which is a background subtraction algorithm.
+ Background Subtraction is widely used in the field to detect moving objects
+ where two frames are subtracted the foreground image which contains the
+ object of interest while the background image is the static image.
+ The basic idea and assumption behind it is that in a traffic scene only
+ the vehicles move.
+ 
+\end_layout
+
+\begin_layout Standard
+Barnich and Droogrnbroeck [10] proposes ViBe that achieves a high place
+ in the object detection algorithms ranking and outperforms the state-of-the-art
+ algorithms.
+ [11] The basic difference of it with others is that its background model
+ consists a set of observed pixel values while the common method uses probabilit
+y density function.
+ The Vibe algorithm includes three steps: model initialization, foreground
+ detection, and model update.
+ With the emergence of the said algorithm, researchers started making modificati
+on and much more improvements for different applications and problems encountere
+d by the algorithm.
+ Mahoor et al [12] proposes a method to detect repetitive motions even in
+ the presence of camera jitter by using differencing values in modifying
+ the background model.
+ One method done by Sun and Zhu [13] is to combine the algorithm with improved
+ Canny Edge Detector, another algorithm which uses the first derivative
+ of Gaussian function to detect the edges of objects in the image.
+ There are also methods proposed that uses different kind of edge detectors
+ like Sobel Function, that computes an approximation of the gradient of
+ the image intensity [14].
+ To be discussed below are the basic steps in implementing the algorithm
+ which can be used to see the improvements needed for the specific application.
+ 
+\end_layout
+
+\begin_layout Standard
+ViBe starts with model initialization which uses the information of pixels
+ in the neighborhood with the assumption that values shared by these pixels
+ have a similar distribution.
+ It just needs to take out the original model and use the frame after sudden
+ change to create another model again.
+ Next step would be foreground detection, which involves two decisions.
+ One is to check if the pixels in the model matches those with the foreground.
+ With a given threshold, you can now produce a binary image with the foreground
+ pixel.
+ Lastly, the algorithm will update the model after foreground detection.
+ On model update, ViBe do it with random selection, which proves to be very
+ powerful and different from known strategies that uses a long and short
+ term history of values.
+ 
+\end_layout
+
+\begin_layout Section
+Feature Extraction
+\end_layout
+
+\begin_layout Standard
+Kamkar et al classify vehicles by extracting two features: the vehicle length
+ from the time-spatial image (TSI) and the correlation computed from the
+ grey-level co-occurence matrix (GLCM) of the vehicle image within its bounding
+ box.
+ The vehicle length is useful for classifying vehicles according to size.
+ However, this feature is sensitive to noise and the velocity of the vehicle
+ changes.
+ As a result, the GLCM is obtained and the correlation value is calculated.
+ This value is proportional to the actual size of the vehicle (9).
+ 
+\end_layout
+
+\begin_layout Standard
+Gupte et al collects vehicle parameters like length, width, and velocity
+ from the 2D projections of the vehicles.
+ Camera calibration is necessary in order to obtain accurate measurements.
+ This is usually difficult since cameras are installed 20 to 30 feet above
+ the ground.
+ This is remedied by using known facts about the surroundings, like the
+ road being restricted to a plane, and that lane markings are parallel and
+ their lengths and distances between them are specified.
+ Thus, the distance between any two points in the road can be determined
+ by knowing their image locations.
+ 
+\end_layout
+
+\begin_layout Standard
+Meanwhile, Wen et al extracts Haar-like features from the vehicle.
+ Each Haar-like feature consists of “black” and “white” rectangles, where
+ its value is equal to the difference between the sums of the pixel values
+ within the rectangles.
+ The integral image method is used to speed up the feature extraction procedure.
+ They propose that classification locations should be generated by combining
+ feature values with their class labels.
+ 
+\end_layout
+
+\begin_layout Section
+Vehicle Classification
+\end_layout
+
+\begin_layout Standard
+One method of classifying vehicles is by using a random forest (RF).
+ This is trained using a small number of training data.
+ The RF grows many classification trees.
+ To classify a new vehicle, each tree receives the features of the vehicle,
+ and they vote for a class.
+ The forest chooses the class with the most votes from all of the trees.
+ Since the RF has a small run-time and computational load, it is appropriate
+ for real-time applications.
+ [9] 
+\end_layout
+
+\begin_layout Standard
+Gupte et al used the vehicle dimensions obtained to classify vehicles into
+ cars or noncars (van, SUVs, pickup trucks, and buses).
+ Doing a coarse, dimension-based classification reduces the complexity of
+ further classification for granularity.
+ They computed the mean and variance of the vehicle height from a sample
+ of 50 cars and trucks, and these were used to form a discriminant function.
+ The average dimensions of a truck are only slightly larger than of a car,
+ so it is possible to obtain errors when a decision boundary is defined.
+ 
+\end_layout
+
+\begin_layout Standard
+Wen et al attempted to implement incremental learning, which refers to the
+ process of accumulating and managing knowledge over time.
+ However, this algorithm relies on adequate and representative data.
+ In vehicle detection, new image data becomes available over a period of
+ time.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Problem Statement and Objectives 
+\begin_inset CommandInset label
+LatexCommand label
+name "cha:ProbStatement"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Problem Statement
+\end_layout
+
+\begin_layout Standard
+Vehicle classification is not yet present in the current framework of the
+ Philippines to solve traffic congestion in the country.
+ Hence, there is a need to develop a module that would do this and then
+ can be used in a lot of improvements in the data served by the PhilMATIS
+ and can be used in a lot more other applications.
+ 
+\end_layout
+
+\begin_layout Standard
+Also, from the methods done by previous researchers, most classes only considere
+d sizes and some only considered texture.
+ Hence, an approach that uses both types of feature extraction could produce
+ a more diverse set of classes.
+ And these classes must be relevant to the Philippine setting of vehicles.
+ Aside from that, the growing field of machine learning introduces a lot
+ of novel methods that can produce higher accuracy for specific applications.
+\end_layout
+
+\begin_layout Section
+Scopes and Objectives
+\end_layout
+
+\begin_layout Standard
+The researchers would like to implement a vehicle classification module
+ for PhilMATIS.
+ Also, the experiment will include a comparative analysis on different set
+ of feature extraction methods that can be useful for the vehicles found
+ in the Philippines.
+ The system will be evaluated through accuracy of the classification and
+ execution time for real-time applications.
+ The project will not tackle classification of vehicles not included in
+ the Philippines and will only focus on daytime scene.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintAll"
+bibfiles "bibliography"
+options "unsrt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\start_of_appendix
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
